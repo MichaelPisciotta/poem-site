@@ -1,0 +1,42 @@
+
+html{
+    background-color: rgb(147, 252, 252);
+}
+
+main h1{
+font-size: 50px;
+text-align: center;}
+
+main p{
+    font-size: 21px;
+    background-color: rgb(244, 226, 226);
+    padding-top: 20px;
+    font-family: 'Syne Mono', monospace;
+}
+
+main img{
+    height: 1020px;
+    width: 900px;
+    float: right;
+    margin-top: 21px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+    margin-left: 15px;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+    margin-right: 15px;
+  }
